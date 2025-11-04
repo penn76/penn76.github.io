@@ -1,8 +1,8 @@
 Origin: JackTheHusky's Cydia Repository
-Label: Jack's Repo
+Label: JackTheHusky's Cydia Repository
 Suite: stable
-Version: 0.1
+Version: 1.0
 Codename: ios
-Architectures: iphoneos-armv7, iphoneos-arm64
+Architectures: iphoneos-arm
 Components: main
-Description: JackTheHusky's Cydia Repository hosts various jailbreak tweaks, themes, and applications.
+Description: iOS packages, themes, & tweaks straight from the goodest boy.
