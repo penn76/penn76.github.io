@@ -1,3 +1,5 @@
 body {
-  font-family: "Stack Sans Text", "Sans-Serif"
+  font-family: "Stack Sans Text", "Sans-Serif";
+  margin: 12px;
+  padding: 8px;
 }
