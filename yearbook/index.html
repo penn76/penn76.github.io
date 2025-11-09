@@ -8,7 +8,6 @@
         max-width: 320px;
         margin: 8px;
         display: inline-block;
-        align: top;
       }
       
       .photo:hover {
@@ -63,6 +62,12 @@
     </div>
   </body>
   <script>
-    alert("b")
+    let password = prompt("Please enter the password to view this webpage.");
+    if (password === "Olive Garden") {
+      alert("Password Correct.");
+    } else {
+      alert("Password Incorrect.");
+      window.close();
+    }
   </script>
   </html>
