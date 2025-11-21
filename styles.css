@@ -3,3 +3,23 @@ body {
   margin: 12px;
   padding: 8px;
 }
+
+.acer {
+  display: inline-block;
+  margin: 16px;
+  padding: 8px;
+}
+
+.acer:hover {
+  box-shadow: 8px 8px 8px black;
+}
+
+.mac {
+  display: inline-block;
+  margin: 16px;
+  padding: 8px;
+}
+
+.mac:hover {
+  box-shadow: 8px 8px 8px black;
+}
