@@ -1,3 +1,48 @@
 body {
     font-family: "Stack Sans Text," "sans-serif";
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 16px;
+    background-color: #dddddd;
+    box-shadow: 8px 8px 8px orange;
+}
+
+.nav button {
+    background-color: #cccccc;
+    border-radius: 4px;
+}
+
+.nav button:hover {
+    background-color: #777777;
+    box-shadow: 4px 4px 4px black;
+}
+
+.basicabout {
+    background-color: #eeeeee;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px orange;
+}
+
+.youtubelatest {
+    background-color: #eeeeee;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px orange;
+}
+
+.bloglatest {
+    background-color: #eeeeee;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px orange;
+}
+
+.repofeature {
+    background-color: #eeeeee;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px orange;
+}
+
+.mysetup {
+    background-color: #eeeeee;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px orange;
 }
