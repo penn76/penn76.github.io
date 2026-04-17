@@ -2,7 +2,7 @@ body {
     font-family: "Stack Sans Text";
     margin-left: 16px;
     margin-right: 16px;
-    padding: 32px;
+    padding: 16px;
     background-color: #dddddd;
     box-shadow: 8px 8px 8px orange;
     border-radius: 8px;
@@ -22,8 +22,10 @@ body {
     background-color: #eeeeee;
     border-radius: 8px;
     box-shadow: 4px 4px 4px orange;
-    width: 70%;
+    width: 60%;
     display: inline-block;
+    padding: 8px;
+    margin: 8px;
 }
 
 .youtubelatest {
@@ -32,6 +34,8 @@ body {
     box-shadow: 4px 4px 4px orange;
     width: 30%;
     display: inline-block;
+    padding: 8px;
+    margin: 8px;
 }
 
 .bloglatest {
@@ -40,20 +44,26 @@ body {
     box-shadow: 4px 4px 4px orange;
     width: 30%;
     display: inline-block;
+    padding: 8px;
+    margin: 8px;
 }
 
 .repofeature {
     background-color: #eeeeee;
     border-radius: 8px;
     box-shadow: 4px 4px 4px orange;
-    width: 70%;
+    width: 60%;
     display: inline-block;
+    padding: 8px;
+    margin: 8px;
 }
 
 .mysetup {
     background-color: #eeeeee;
     border-radius: 8px;
     box-shadow: 4px 4px 4px orange;
-    width: 70%;
+    width: 60%;
     display: inline-block;
+    padding: 8px;
+    margin: 8px;
 }
