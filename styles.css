@@ -1,10 +1,11 @@
 body {
-    font-family: "Montserrat," "sans-serif";
+    font-family: "Stack Sans Text";
     margin-left: 16px;
     margin-right: 16px;
-    padding: 16px;
+    padding: 32px;
     background-color: #dddddd;
     box-shadow: 8px 8px 8px orange;
+    border-radius: 8px;
 }
 
 .nav button {
@@ -21,28 +22,38 @@ body {
     background-color: #eeeeee;
     border-radius: 8px;
     box-shadow: 4px 4px 4px orange;
+    width: 70%;
+    display: inline-block;
 }
 
 .youtubelatest {
     background-color: #eeeeee;
     border-radius: 8px;
     box-shadow: 4px 4px 4px orange;
+    width: 30%;
+    display: inline-block;
 }
 
 .bloglatest {
     background-color: #eeeeee;
     border-radius: 8px;
     box-shadow: 4px 4px 4px orange;
+    width: 30%;
+    display: inline-block;
 }
 
 .repofeature {
     background-color: #eeeeee;
     border-radius: 8px;
     box-shadow: 4px 4px 4px orange;
+    width: 70%;
+    display: inline-block;
 }
 
 .mysetup {
     background-color: #eeeeee;
     border-radius: 8px;
     box-shadow: 4px 4px 4px orange;
+    width: 70%;
+    display: inline-block;
 }
