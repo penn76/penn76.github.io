@@ -22,7 +22,7 @@ body {
     background-color: #eeeeee;
     border-radius: 8px;
     max-width: 302px;
-    display: inline-block;
+    display: inline;
     padding: 8px;
     margin: 8px;
 }
@@ -31,7 +31,7 @@ body {
     background-color: #eeeeee;
     border-radius: 8px;
     max-width: 403px;
-    display: inline-block;
+    display: inline;
     padding: 8px;
     margin: 8px;
 }
