@@ -19,7 +19,7 @@ body {
 }
 
 .itemtall{
-    background-color: #cccccc;
+    background-color: #eeeeee;
     border-radius: 8px;
     max-width: 302px;
     display: inline-block;
@@ -28,7 +28,7 @@ body {
 }
 
 .itemwide{
-    background-color: #cccccc;
+    background-color: #eeeeee;
     border-radius: 8px;
     max-width: 403px;
     display: inline-block;
