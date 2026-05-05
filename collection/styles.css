@@ -18,9 +18,22 @@ body {
     box-shadow: 4px 4px 4px black;
 }
 
-.item {
-    background-color: #999999;
+.itemtall{
+    background-color: #cccccc;
     border-radius: 8px;
+    max-width: 302px;
+    display: inline-block;
+    padding: 8px;
+    margin: 8px;
+}
+
+.itemwide{
+    background-color: #cccccc;
+    border-radius: 8px;
+    max-width: 403px;
+    display: inline-block;
+    padding: 8px;
+    margin: 8px;
 }
 
 .item:hover{
