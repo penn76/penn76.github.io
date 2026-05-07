@@ -1,0 +1,30 @@
+<packageInfo>
+    <bundleId>com.jackthehusky.supersonic</bundleId>
+    <name>Supersonic</name>
+    <version>0.2.1</version>
+    <descriptions>
+        <description>
+            Turns all your icons into Oasis album covers
+        </description>
+        <description>
+            ts the best twak ever
+        </description>
+    </descriptions>
+    <compatibility>
+        <miniOS>7.0</miniOS>
+        <maxiOS>14.8.1</maxiOS>
+    </compatibility>
+    <dependencies>
+        <dependency>snowboard</dependency>
+    </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>V0.2.1</changeVersion>
+            <changeDescription>Initial release 2 the public</changeDescription>
+        </change>
+        <change>
+            <changeVersion>V0.2.0</changeVersion>
+            <changeDescription>Beta build for developers</changeDescription>
+        </change>
+    </changelog>
+</packageInfo>
