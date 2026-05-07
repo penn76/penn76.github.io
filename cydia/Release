@@ -3,6 +3,6 @@ Label: This package is hosted on JackTheHusky's repository (penn76.github.io/cyd
 Suite: stable
 Version: 1.0
 Codename: cydia-ios
-Architectures: iphoneos-arm, iphoneos-arm64
+Architectures: iphoneos-arm, iphoneos-arm64, iphoneos-arm64e
 Components: main
 Description: b
