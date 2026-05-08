@@ -1,0 +1,23 @@
+body {
+    font-family: "Stack Sans Text";
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 16px;
+    background-color: #eeeeee;
+    box-shadow: 8px 8px 8px orange;
+    border-radius: 8px;
+}
+
+.main {
+    background-color: #dddddd;
+}
+
+.nav button {
+    background-color: #cccccc;
+    border-radius: 4px;
+}
+
+.nav button:hover {
+    background-color: #777777;
+    box-shadow: 4px 4px 4px black;
+}
