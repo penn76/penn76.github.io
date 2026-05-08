@@ -1,7 +1,7 @@
 <packageInfo>
     <bundleId>com.jackthehusky.supersonic</bundleId>
     <name>Supersonic</name>
-    <version>0.2.1</version>
+    <version>0.2.3</version>
     <descriptions>
         <description>
             Turns all your icons into Oasis album covers
@@ -18,6 +18,10 @@
         <dependency>snowboard</dependency>
     </dependencies>
     <changelog>
+    <change>
+            <changeVersion>V0.2.3</changeVersion>
+            <changeDescription>IM TIRED OF TRYING JUST PLEASE WORK</changeDescription>
+        </change>
         <change>
             <changeVersion>V0.2.1</changeVersion>
             <changeDescription>Initial release 2 the public</changeDescription>
