@@ -1,9 +1,0 @@
-Package: net.jackthehusky.supersonic
-Name: Supersonic
-Depends: com.spark.snowboard
-Version: 0.2.1
-Architecture: iphoneos-arm
-Description: Replaces all icons with Oasis (as in the band) themed icons. Requires snowboard. All photography taken from Wikimedia commons, or other non-licensed sources. Some photos taken by me, the creator of the theme.
-Maintainer: Jack TheHusky
-Author: Jack TheHusky
-Section: Themes
