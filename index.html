@@ -7,6 +7,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@200..700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="favicon.PNG">
     <link rel="stylesheet" href="styles.css">
+    <script type="module" src="./widgets/lastfm.js"></script>
+    <script>
+      function vbsclose()
+      {
+        close();
+      }
+    </script>
   </head>
 <body>
   <div class="nav">
@@ -34,11 +41,17 @@
     </div>
     <div class="repofeature">
       <h3>Tweak of the day</h3>
-      <h6>Today is May 8, 2026</h6>
+      <h6>Last Updated May 8, 2026</h6>
       <div class="featuredtweak">
         <iframe src="cydia/depictions/net.jackthehusky.supersonic/index.html" width="100%" height="100%"></iframe>
         <a href="/cydia/depictions/net.jackthehusky.supersonic/index.html">View this tweak in full</a>
       </div>
+    </div>
+    <div class="lastfm">
+      <lastfm-tracks 
+        user="penn76" 
+        tracks="20">
+    </lastfm-tracks>
     </div>
     <div class="mysetup">
       <h3>What equipment do I use?</h3>
@@ -69,4 +82,12 @@
       </div>
     </div>
   </div>
-</body>
+  <script language = "vbscript" type = "text/vbscript">
+    function edgechecker
+    response = MsgBox("It seems you are using Microsoft Edge as your web browser. This is a VBSscript I made that only Microsoft Edge can display. This script closes the webpage when you click OK. There is no way out of it. Please use a different browser."),16,"JackTheHusky won't allow you to view his website."
+    if response = 1 then
+    call vbsclose()
+    end edgechecker
+  </script>
+</body onload="edgechecker()">
+</html>
