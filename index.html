@@ -7,13 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@200..700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="favicon.PNG">
     <link rel="stylesheet" href="styles.css">
-    <script type="module" src="./widgets/lastfm.js"></script>
-    <script>
-      function vbsclose()
-      {
-        close();
-      }
-    </script>
+    <script type="module" src="lastfm.js"></script>
   </head>
 <body>
   <div class="nav">
@@ -82,12 +76,5 @@
       </div>
     </div>
   </div>
-  <script language = "vbscript" type = "text/vbscript">
-    function edgechecker
-    response = MsgBox("It seems you are using Microsoft Edge as your web browser. This is a VBSscript I made that only Microsoft Edge can display. This script closes the webpage when you click OK. There is no way out of it. Please use a different browser."),16,"JackTheHusky won't allow you to view his website."
-    if response = 1 then
-    call vbsclose()
-    end edgechecker
-  </script>
-</body onload="edgechecker()">
+</body>
 </html>
