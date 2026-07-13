@@ -1,78 +1,97 @@
-html {
-    max-width: 1080px;
-    margin: 5px;
-}
-
 body {
     font-family: "Stack Sans Text";
     margin-left: 16px;
     margin-right: 16px;
     padding: 16px;
-    background-color: #eeeeee;
-    box-shadow: 8px 8px 8px orange;
-    border-radius: 8px;
+    background-color: #333333;
+    max-width: 1080px;
+    float: auto;
+    color: #ffffff;
 }
 
-.main {
-    background-color: #dddddd;
+.nav {
+    margin: 8px;
 }
 
 .nav button {
-    background-color: #cccccc;
+    background-color: white;
     border-radius: 4px;
+    height: 32px;
+    width: 200px;
+    font-family: "Stack Sans Text";
 }
 
 .nav button:hover {
-    background-color: #777777;
-    box-shadow: 4px 4px 4px black;
+    background-color: #dddddd;
+    box-shadow: 2px 2px 2px black;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: start;
+    gap: 8px;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
 }
 
 .basicabout {
-    background-color: #eeeeee;
+    background-color: #111111;
     border-radius: 8px;
-    box-shadow: 4px 4px 4px orange;
+    box-shadow: 4px 4px 4px darkorange;
     width: 716px;
-    display: inline-block;
     padding: 8px;
     margin: 8px;
+    height: 632px;
 }
 
 .youtubelatest {
-    background-color: #eeeeee;
+    background-color: #111111;
     border-radius: 8px;
-    box-shadow: 4px 4px 4px orange;
+    box-shadow: 4px 4px 4px darkorange;
     width: 300px;
-    display: inline-block;
     padding: 8px;
     margin: 8px;
+    height: 300px;
 }
 
 .bloglatest {
-    background-color: #eeeeee;
+    background-color: #111111;
     border-radius: 8px;
-    box-shadow: 4px 4px 4px orange;
-    width: 300px;
+    box-shadow: 4px 4px 4px darkorange;
     padding: 8px;
+    width: 300px;
     margin: 8px;
-    float: right;
+    height: 300px;
 }
 
 .repofeature {
-    background-color: #eeeeee;
+    background-color: #111111;
     border-radius: 8px;
-    box-shadow: 4px 4px 4px orange;
+    box-shadow: 4px 4px 4px darkorange;
     display: inline-block;
     padding: 8px;
     margin: 8px;
-    width: 100%;
+    width: 716px;
+    height: 300px;
+}
+
+.discord {
+    float: right;
+    margin-top: 8px;
+    box-shadow: 4px 4px 4px darkorange;
+    border-radius: 8px;
 }
 
 .mysetup {
-    background-color: #eeeeee;
+    background-color: #111111;
     border-radius: 8px;
-    box-shadow: 4px 4px 4px orange;
-    display: inline-block;
+    box-shadow: 4px 4px 4px darkorange;
     padding: 8px;
     margin: 8px;
-    
+    height: 600px;
+    width: 716px;
 }
