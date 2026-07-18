@@ -13,16 +13,16 @@ body {
 }
 
 .nav button {
-    background-color: white;
-    border-radius: 4px;
     height: 32px;
     width: 200px;
     font-family: "Stack Sans Text";
+    border: none;
+    background: linear-gradient(#fff, #eee 50%, #ddd 50%, #ccc);
 }
 
 .nav button:hover {
-    background-color: #dddddd;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 2px darkorange;
+    background: linear-gradient(#ddd, #ccc 50%, #bbb 50%, #aaa);
 }
 
 .itemtall{
